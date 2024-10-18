@@ -6,4 +6,4 @@ on:
 
 jobs:
   build:
-    uses: owner/HackatonActionMaster/.github/workflows/workflow.yml@main
+    uses: AlejandroJimenezGutierrez/HackatonActionMaster/.github/workflows/workflow.yml@main
