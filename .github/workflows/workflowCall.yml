@@ -1,0 +1,5 @@
+name: WorkflowCall
+
+on:
+  workflow_call:
+    uses: owner/HackatonActionMaster/.github/workflows/workflow.yml@main
