@@ -2,4 +2,7 @@ name: WorkflowCall
 
 on:
   workflow_call:
+
+jobs:
+  build:
     uses: owner/HackatonActionMaster/.github/workflows/workflow.yml@main
