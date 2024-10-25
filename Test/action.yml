@@ -1,0 +1,12 @@
+name: "Test"
+inputs:
+  param1:
+    description: "Primer parámetro"
+    required: true
+  param2:
+    description: "Segundo parámetro"
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Ejecutando tests ${{ inputs.param1 }} y ${{ inputs.param2 }}"

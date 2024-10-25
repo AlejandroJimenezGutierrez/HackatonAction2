@@ -1,0 +1,5 @@
+name: "InfraConfig"
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Configurando la infraestructura necesaria para la aplicación"
