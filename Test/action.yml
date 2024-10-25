@@ -7,6 +7,10 @@ inputs:
     description: "Segundo parámetro"
     required: true
 runs:
+    
   using: "composite"
   steps:
     - run: echo "Ejecutando tests ${{ inputs.param1 }} y ${{ inputs.param2 }}"
+      shell: bash
+
+    
